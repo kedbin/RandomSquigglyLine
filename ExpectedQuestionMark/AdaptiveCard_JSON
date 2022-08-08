@@ -1,0 +1,81 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/kedbin/RandomSquigglyLine/main/ExpectedQuestionMark/handshake-25.gif",
+                            "style": "Person",
+                            "size": "Small",
+                            "width": "59px",
+                            "spacing": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "size": "Large",
+                            "weight": "Bolder",
+                            "text": "We're All In This Together!",
+                            "horizontalAlignment": "Center",
+                            "color": "Good"
+                        }
+                    ],
+                    "minHeight": "11px",
+                    "backgroundImage": {
+                        "verticalAlignment": "Center"
+                    }
+                },
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://raw.githubusercontent.com/kedbin/RandomSquigglyLine/main/ExpectedQuestionMark/Earth-Illustrated.png",
+                            "style": "Person",
+                            "width": "59px",
+                            "height": "38px"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "@{outputs('Get_file_thumbnail')?['body/Url']}"
+                        }
+                    ],
+                    "width": "stretch",
+                    "horizontalAlignment": "Center",
+                    "verticalContentAlignment": "Center"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "spacing": "None",
+            "isSubtle": true,
+            "wrap": true,
+            "text": "Thank you for calling this bot! Let's all strive to build a connected community by sharing a bit of ourselves! Use this link to contribute: [Upload here :)!](https://myoffice.accenture.com/personal/kim_edrian_binasoy_accenture_com/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fkim%5Fedrian%5Fbinasoy%5Faccenture%5Fcom%2FDocuments%2FPictures%2FTogetherness) "
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}
